@@ -1,0 +1,123 @@
+body {
+    background: url(https://cdn.jsdelivr.net/gh/MobiusBeta/assets/images/BG_A_Default_3.jpg) no-repeat;
+    /* basic backgrund */
+}
+
+.base {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    /* basic background color */
+    /* unset now */
+}
+.topscreen {
+    padding-left: 10px;
+    width: auto;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left:30px;
+    position:fixed;
+    /* no movement */
+    z-index: 500;
+    /* always the first */
+}
+
+.container {
+    height: 900px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left:30px;
+    margin-right: 30px;
+    padding-left: 30px;
+    border-radius: 15px;
+    padding-top: 5px;
+    margin-top: 100px;
+}
+
+.download {
+    width: 230px;
+    height: 60px;
+    background-color: rgb(40, 182, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 7px;
+    /* button of Vscode */
+}
+
+.download:hover {
+    background-color: rgb(10, 193, 0);
+    /* button of Vscode */
+}
+
+/* .Main{
+    width: 700px;
+    height:500px;
+    position:relative;
+    background-color: chartreuse; */
+/* } */
+#download_alert {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+#top_text {
+    color: rgb(0, 187, 255);
+
+}
+
+#bili {
+    text-decoration: none;
+    color: rgb(0, 187, 255);
+    font-size: 18px;
+
+}
+
+#bili:hover {
+    text-decoration: none;
+    color: rgb(0, 229, 255);
+    
+}
+
+#github {
+    text-decoration: none;
+    color: rgb(0, 187, 255);
+    font-size: 18px;
+}
+#github:hover {
+    text-decoration: none;
+    color: rgb(0, 229, 255);
+}
+.intop {
+    display:block;
+    color: rgb(0, 187, 255);
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 10px;
+    text-align: center;
+}
+.title{
+    width:auto;
+    height:500px;
+    text-align: right;
+    color: white;
+    font-family: 叶根友刀锋黑草;
+    font-size: 200px;
+    bottom: 0;
+    padding-top: 500px;
+    /* display:table-cell; */
+    /* vertical-align:bottom; */
+}
+.introduce{
+    text-align: right;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 20px;
+}
